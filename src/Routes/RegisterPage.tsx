@@ -3,16 +3,16 @@ import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import { LocalizationProvider, DatePicker } from "@mui/x-date-pickers";
 import { DemoContainer } from '@mui/x-date-pickers/internals/demo';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
-import { useState } from "react";
+// import { useState } from "react";
 
 function RegisterPage() {
     
     const blood = ["A+", "B+", "AB+", "O+", "A-", "B-", "AB-", "O-"];
-    const [imgURL, setImgURL] = useState("");
+    // const [imgURL, setImgURL] = useState("");
 
-    const handleUpload = () => {
-        var file = "";
-    };
+    // const handleUpload = () => {
+        // var file = "";
+    // };
 
 
     return(
