@@ -3,6 +3,7 @@ import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import { LocalizationProvider, DatePicker } from "@mui/x-date-pickers";
 import { DemoContainer } from '@mui/x-date-pickers/internals/demo';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+
 // import { useState } from "react";
 
 function RegisterPage() {
@@ -16,11 +17,12 @@ function RegisterPage() {
 
 
     return(
+        <div id="registration">
         <Container
             component="main"
             maxWidth="xs"
         >
-            <CssBaseline>
+            <CssBaseline/>
                 <Box
                     sx={{
                         display: 'flex',
@@ -168,8 +170,8 @@ function RegisterPage() {
                         </Grid>
                     </Box>
                 </Box>
-            </CssBaseline>
         </Container>
+        </div>
     );
 }
 
